@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "<div align=\"center\">",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "npm run dev --prefix hms",
+    "build": "npm run build --prefix hms",
+    "start": "npm run start --prefix hms"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VittalPatel/LearnPlaywrightBatch2x.git"
